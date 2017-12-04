@@ -1,0 +1,22 @@
+{
+  "name": "fastify-demo",
+  "version": "1.0.0",
+  "description": "learning nodejs fastify",
+  "main": "index.js",
+  "repository": "git@github.com:niubai/fastify-demo.git",
+  "author": "陈宇仑 <308813800@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "eslint": "./node_modules/eslint/bin/eslint.js ."
+  },
+  "dependencies": {
+    "fastify": "^0.35.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

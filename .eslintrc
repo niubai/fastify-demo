@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "rules": {
+//    "strict": 0,
+//    "no-multi-spaces": 2,
+    "no-unused-vars": [0, {"vars": "all", "args": "after-used"}]//不能有声明后未被使用的变量或参数
+//    "no-console": "off"
+//    "quotes": [2, "single"],
+//    "no-undef": [2]
+  }
+}
