@@ -11,7 +11,9 @@
     "eslint": "./node_modules/eslint/bin/eslint.js ."
   },
   "dependencies": {
-    "fastify": "^0.35.3"
+    "fastify": "^0.35.3",
+    "fastify-mongoose": "^0.2.1",
+    "mongoose": "^4.13.6"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",

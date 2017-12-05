@@ -10,7 +10,8 @@
   "rules": {
 //    "strict": 0,
 //    "no-multi-spaces": 2,
-    "no-unused-vars": [0, {"vars": "all", "args": "after-used"}]//不能有声明后未被使用的变量或参数
+    "no-unused-vars": [0, {"vars": "all", "args": "after-used"}],//不能有声明后未被使用的变量或参数
+    "no-restricted-syntax": 0
 //    "no-console": "off"
 //    "quotes": [2, "single"],
 //    "no-undef": [2]
